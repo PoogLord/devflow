@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Boolean, DateTime
 from sqlalchemy.orm import DeclarativeBase
 from datetime import datetime, timezone
-
+#โครงสร้างฐานข้อมูล คุยกับ PostgreSQL — บอกว่าตารางหน้าตาเป็นยังไง
 
 class Base(DeclarativeBase):
     pass
